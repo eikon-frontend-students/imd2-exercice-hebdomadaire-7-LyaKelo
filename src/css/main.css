@@ -20,3 +20,60 @@ label {
 input:focus {
   outline: none;
 }
+
+.login {
+  border-radius: 32px;
+  padding: 32px;
+  border: 1px solid #CCC;
+  background: #FFF;
+  width: 286px;
+
+  font-family: "Plus Jakarta Sans";
+  margin: 50px;
+}
+
+.login-group, .login-heading {
+ margin-bottom: 16px;
+}
+
+.login-title {
+ font-size: 32px; 
+font-weight: 600;
+}
+.login-subtitle{
+font-size: 24px;
+font-weight: 500;
+}
+.login-input {
+  color: #555;
+font-family: "Plus Jakarta Sans";
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.login-label {
+  color: #555;
+ font-family: "Plus Jakarta Sans";
+ font-size: 16px;
+ font-weight: 400;
+}
+
+.login-submit {
+  display: flex;
+ height: 40px;
+ justify-content: center;
+ align-items: center;
+ align-self: stretch;
+
+border-radius: 4px;
+background: #1576EA;
+
+color: #FFF;
+text-align: center;
+font-family: "Plus Jakarta Sans";
+font-size: 16px;
+font-weight: 700;
+line-height: 40px; /* 250% */
+}
