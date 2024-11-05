@@ -26,7 +26,7 @@ input:focus {
   padding: 32px;
   border: 1px solid #CCC;
   background: #FFF;
-  width: 286px;
+  width: max-content;
 
   font-family: "Plus Jakarta Sans";
   margin: 50px;
@@ -45,12 +45,22 @@ font-size: 24px;
 font-weight: 500;
 }
 .login-input {
-  color: #555;
 font-family: "Plus Jakarta Sans";
+width: 325px;
 font-size: 16px;
+height: 35px;
 font-style: normal;
 font-weight: 400;
 line-height: normal;
+
+border-radius: 4px;
+border: 1px solid #CCC;
+}
+
+.login-input:hover {
+  border-radius: 4px;
+  border: 1px solid #000;
+  background: #EEE;
 }
 
 .login-label {
@@ -63,6 +73,7 @@ line-height: normal;
 .login-submit {
   display: flex;
  height: 40px;
+ width: 325px;
  justify-content: center;
  align-items: center;
  align-self: stretch;
@@ -76,4 +87,9 @@ font-family: "Plus Jakarta Sans";
 font-size: 16px;
 font-weight: 700;
 line-height: 40px; /* 250% */
+}
+
+.login-submit:hover
+{
+background: #0B0B0B;
 }
